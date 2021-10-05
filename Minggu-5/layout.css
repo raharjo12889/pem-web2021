@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.first-section {
+    object-fit: cover;
+}
+
+.first-section video {
+    min-width: 98.75vw;
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+} 
+.table {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+audio {
+    display: none;
+}
+
+video{
+    width: 100%;
+}
